@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+div.navbar{
+    width: 100%;
+    height: 80px;
+    border: 10px solid black;
+}
+div.con{
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+.logo{
+    width: 30%;
+    height: 80px;
+    float: left;
+    
+    
+}
+.logo img{
+    width: 50%;
+    margin-top: 15px;
+}
+.btn{
+    width: 30%;
+    height: 80px;
+    float: right;
+}
+.btn select{
+    margin-top: 20px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    background-color:unset;
+    color: white;
+    margin-right: 20px;
+
+}
+.btn option{
+    background-color: grey;
+    color: white;
+}
+.btn input{
+    width: 100px;
+    margin-top: 20px;
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 7px; 
+    
+}
+div.banner{
+    width: 100%;
+    background-image: url(/IMG/netflix.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-size: 100%;
+    padding-bottom: 200px;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10rem;
+}
+.banner h3, p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-weight: 100;
+}
+.banner p{
+    font-size: 20px;
+}
+input.text{
+    width: 450px;
+    padding: 18px 10px;
+    font-size: 18px;
+    border: none;
+}
+input.ser{
+    width: 250px;
+    padding: 18px 10px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(194, 0, 0);
+    border: none;
+    margin: -2px;
+    
+}
+select{
+    width: 100px;
+    padding: 6px 4px;
+    background-color: unset;
+    color: white;
+    margin-right: 5px;
+    margin-top: -5px;
+    border-radius: 7px;
+}
+option{
+    background-color: grey;
+}
+.section1{
+    background-color: black;
+    width: 100%;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+.bar{
+    content: "";
+    width: 100%;
+    height: 10px;
+   background-color: #222222;
+}
+
+div.section1 .info{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.info h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: left;
+
+}
+.info p{
+    color: white;
+    font-size: 28px;
+    padding-top: 30px;
+    text-align: left;
+}
+.section1 .info-img{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.section1 .info-img img{
+    width: 80%;
+}
+
+.section2 .img2{
+    width: 50%;
+    float: left;
+}
+.section2 .img2 img{
+    width: 80%;
+}
+
+.section2 .info2{
+    width: 50%;
+  padding-top: 100px;
+    float: left;
+}
+
+.section2 .info2 h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.section2 .info2 p{
+        color: white;
+        font-size: 28px;
+        padding-top: 30px;
+        padding-right: 20px;
+        text-align: center;
+}
+.section3{
+    background-color: black;
+    width: 100%;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+div.section3 .info{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+.section3 .info-img{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+div.section3 .info h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: left;
+
+}
+
+.section4 .img2{
+    width: 50%;
+    float: left;
+}
+.section4 .img2 img{
+    width: 80%;
+}
+
+.section4 .info2{
+    width: 50%;
+    padding-top: 100px;
+    float: left;
+}
+
+.section4 .info2 h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.section4 .info2 p{
+    color: white;
+     font-size: 28px;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+.section5{
+    background-color: black;
+    width: 100%;
+}
+.section5 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.section5 .box1{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.section5 .box1 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section5 .box2{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.section5 .box2 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section5 .box3{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.section5 .box3 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section5 .box4{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.section5 .box4 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section5 .box5{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.section5 .box5 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section5 .box6{
+    width: 700px;
+    height: 75px;
+    background-color: #303030;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}
+.section5 .box6 p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+} 
+.section5 p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
